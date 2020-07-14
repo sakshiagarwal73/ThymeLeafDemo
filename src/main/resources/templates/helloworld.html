@@ -4,11 +4,15 @@
   <title>
     ThymeLeaf Demo
   </title>
+  
+  <!-- reference css file -->
+  <link rel = "stylesheet" th:href = "@{/css/demo.css}"/>
+  
 </head>
 
 <body>
 
-   <p th:text = "'Time on server is' + ${date}"/>
+   <p th:text = "'Time on server is' + ${date}" class = "funny"/>
   
 </body>
 
